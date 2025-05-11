@@ -2,13 +2,13 @@ const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
 const submarineImg = new Image();
-submarineImg.src = "assets/submarine.png";
+submarineImg.src = "submarine.png";
 
 const bubbleImg = new Image();
-bubbleImg.src = "assets/bubble.png";
+bubbleImg.src = "bubble.png";
 
 const mineImg = new Image();
-mineImg.src = "assets/mine.png";
+mineImg.src = "mine.png";
 
 let submarine = {
   x: 50,
